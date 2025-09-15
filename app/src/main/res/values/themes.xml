@@ -3,8 +3,8 @@
     <style name="Base.Theme.FirebaseAuth" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <item name="colorPrimary">@color/green</item>
-        <item name="colorPrimaryVariant">@color/green</item>
-        <item name="android:statusBarColor">@color/green</item>
+        <item name="colorPrimaryVariant">@color/grey</item>
+        <item name="android:statusBarColor">@color/grey</item>
     </style>
 
     <style name="Theme.FirebaseAuth" parent="Base.Theme.FirebaseAuth" />
