@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/tools"
+    app:showIn="navigation_view"
+    app:ignore="NamespaceTypo">
+
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/home"/>
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="@string/settings"/>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/baseline_share_24"
+            android:title="@string/share"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/outline_info_24"
+            android:title="@string/about"/>
+    </group>
+
+    <item
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/nav_logut"
+                android:icon="@drawable/logout"
+                android:title="@string/logout"/>
+        </menu>
+    </item>
+
+</menu>
